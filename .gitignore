@@ -1,0 +1,49 @@
+# Ignore compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+target/
+out/
+build/
+!src/main/resources/
+!src/test/resources/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.nb-gradle
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+hs_err_pid*
+replay_pid*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+jacoc
